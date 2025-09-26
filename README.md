@@ -1,6 +1,31 @@
 # Checkout API
 
-A comprehensive checkout API built with PostgreSQL, TypeScript, Node.js, and Swagger. This API manages products and payments with idempotency support and transaction handling.
+A comprehensive checkout API built with PostgreSQL, TypeScript, Node.js, and Swagger. This API manages products and payments with idempotency support, transaction handling, and robust concurrency management.
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)](https://expressjs.com/)
+[![Jest](https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white)](https://jestjs.io/)
+
+## 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/aymangoloyal/checkout-api.git
+cd checkout-api
+
+# Install dependencies
+npm install
+
+# Set up database
+npm run setup-db
+
+# Start development server
+npm run dev
+```
+
+**API Documentation**: http://localhost:3000/api-docs
 
 ## Features
 
